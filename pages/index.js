@@ -1,7 +1,9 @@
-export default function Home() {
+import { getFeaturedEvents } from "./../dummy-data";
+export default function HomePage() {
+  const featuredComponents = getFeaturedEvents();
   return (
     <div>
-      <h1>Sarthak</h1>
+      <h1>The Home Page</h1>
     </div>
   );
 }
